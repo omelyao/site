@@ -1,0 +1,2563 @@
+body{
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    /**padding-top:12px;
+    padding-right: 10px;**/
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-family: 'Prompt', sans-serif;
+}
+.header{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding-right: 10px;
+    margin:0 auto;
+    height: auto;
+    object-fit: cover;
+    z-index: 10000;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-family: 'Prompt', sans-serif;
+
+}
+.container{
+    z-index: 1000000;
+    padding-top: 10px;
+    position: fixed;
+    padding-right: 1em;
+    padding-left: 0.85em;
+    background-color: #fff;
+}
+.header__image{
+    top:0;
+    width: 100%;
+    margin:0 auto;
+    height: auto;
+    object-fit: cover;
+    position: fixed;
+    z-index: 50;
+}
+.head_1{
+    width: 50%;
+    height:auto;
+    z-index: 50;
+    display: flex;
+    position: relative;
+    top:1.63em;
+    font-size: 1.65vw;
+    left: -1.5em;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-family: 'Prompt', sans-serif;
+}
+.head_1 :nth-child(2){
+    padding-right: 1.5em;
+}
+.head_2{
+    width: 50%;
+    height:auto;
+    z-index: 50;
+    display: flex;
+    position: relative;
+    font-size: 1.65vw;
+    left: 34em;
+    top: 0.5em;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-family: 'Prompt', sans-serif;
+}
+.nav_link{
+    z-index: 99999999999;
+    display: inline-block;
+    vertical-align: top;
+    margin:0 auto;
+    color: #fff ;
+    text-decoration: none;
+    transition: color .1s linear;
+    z-index: 100;
+}
+
+.nav_link:hover{
+    color: #DFCE22;
+}
+
+.nav_link_2{
+    z-index: 99999999999;
+    display: block;
+    margin:0 105px;
+    color: #fff ;
+    text-decoration: none;
+    transition: color .1s linear;
+}
+
+.nav_link_2:hover{
+    color: #DFCE22;
+}
+.section{
+    padding-top: 130px;
+    padding-left: 2.2em;
+    padding-right: 0.5em;
+}
+.section__fon{
+    width:100%;
+    flex: 1 0 100%;
+    margin: 0 auto;
+    height:600px;
+    object-fit:cover;
+    object-position: center;
+}
+.section__inner{
+    margin-top: -31.25em;
+    float: right;
+    max-width: 50%;
+    height: auto;
+}
+.section__block{
+    z-index: 0.1;
+    text-align: center;
+    position: relative;
+}
+.year{
+    color: #133D16;
+    font-size: 10vw;
+    font-weight: 400;
+    margin:0;
+    margin-right: 480px;
+    z-index: 1;
+}
+.years{
+    z-index: 1;
+    color: #133D16;
+    font-size: 4.5vw;
+    margin:0.3em;
+    margin-top: -10rem;
+    margin-bottom: 0;
+    margin-right: 1em;
+}
+.EXPERIENCE{
+    z-index: 1;
+    color: #133D16;
+    font-size: 4vw;
+    margin-top: -1rem;
+    margin-left: 1.86em;
+}
+.fili{
+    z-index: 1;
+    margin: 0;
+    margin-top: -3.5rem;
+    color: #133D16;
+    font-size: 2.05em;
+
+}
+.prof{
+    z-index:1;
+    margin:0;
+    color:#133D16;
+    font-size: 2em;
+}
+.tea{
+    z-index: 1;
+    color: #DFCD24;
+    font-size: 2.2em;
+    margin: 0;
+    margin-top: -5.1rem;
+}
+.material{
+    z-index: 1;
+    color: #DFCD24;
+    font-size: 2.2em;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 0.3em;
+}
+.wave-btn{
+    text-decoration-color: #133D16;
+    border-radius: 0.8em;
+    cursor: pointer;
+    display: inline-block;
+    margin:0;
+    padding: 0.5em 0.8em;
+    background-color:#DFCD24 ;
+    transition: color .1s linear;
+}
+.wave-btn-text{
+    font-size: 1.5vw;
+    color: #133D16;
+    
+}
+.wave-btn:hover{
+    background: rgba(0,0,0,0);
+	color: #DFCD24;
+	box-shadow: inset 0 0 0 3px #DFCD24;
+}
+.fakeonas{
+    margin-top:72px;
+}
+.buttom_onas{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    margin: 0;
+    margin-top: 3.875em;
+    margin-bottom:2em;
+    z-index: 100;
+}
+.onas_click{
+    margin-left: 0.5em;
+    font-size: 1.7vw;
+    padding: 0.1em 4em;
+    text-decoration: none;
+    color: #DFCD24;
+    background-color: #133D16;
+}
+.linia{
+    margin-left: 1.5em;
+    content: '';
+    height: 5px;
+    width: 77.7%;
+    background: #133D16;
+}
+.info{
+    padding-top: 134px;
+    padding-left: 0.5em;
+}
+.block{ 
+    z-index: 1;
+    width: 98.5%;
+    height: 77%;
+    position: absolute;
+    background-image: url(../img/онас.png);
+}
+.block__inner{
+    position: relative;
+    margin: 1.5em;
+    margin-right: 3%;
+    background-color: #00000083;
+    width: 68%;
+    height: 60%;
+    font-size: 1.65vw;
+    color: rgb(235, 235, 235);
+}
+.block__inner p{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.color__tianfang{
+    color: #DFCD24;
+}
+.buttom_sert{
+    display: flex;
+    align-items: center;
+    height: auto;
+    position: absolute;
+    margin-left: 2%;
+    margin-top: 40%;
+    z-index: 100;
+}
+.sert_click{
+    margin-left: 2.5%;
+    font-size: 1.6vw;
+    padding: 0.15em 2.2em;
+    text-decoration: none;
+    color: #DFCD24;
+    background-color: #133D16;
+}
+.slick-list{
+    overflow: hidden;
+}
+.slick-track{
+    align-items: center;
+    display: flex;
+}
+.slick-arrow{
+    margin: 0 auto;
+    position: absolute;
+    top: 34%;
+    z-index:10;
+    font-size: 0;
+    width: 123px;
+    height: 150px;
+    border: transparent;
+}
+.slider{
+    position: relative;
+}
+.slick-arrow.slick-prev{
+    margin-left:-90000px;
+    background: url(../img/arrow.svg.png);
+    opacity: 0.5;
+}
+.slick-arrow.slick-prev:hover{
+    opacity: 1;
+}
+.slick-arrow.slick-next{
+    background: url(../img/Antu_arrow-right.svg.png) 0 0/100% no-repeat;
+    right:100px;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: color .1s linear;
+}
+.slick-arrow.slick-next:hover{
+    opacity: 1;
+}
+.slider.slick-arrow.slick-disabled{
+    display:none;
+}
+.slick-dots{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slick-dots li{
+    list-style: none;
+    margin: 0 10px;
+}
+.slick-dots li.slick-active button{
+    background-color: #DFCD24;
+    
+}
+.slick-dots button{
+    font-size: 0;
+    width: 15px;
+    height: 15px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+.sertifikat{
+    margin:0;
+    padding: 0;
+    padding-top: 665px;
+    padding-left: 0.8em;
+}
+.block__sert{
+    position: absolute;
+    z-index:1;
+    width: 98.1%;
+    height: 89.7%;
+    background: url(../img/fonsert.png);
+}
+.sert__inner{
+    margin: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sert1{
+    width: 30%;
+    height: auto;
+}
+.sert1:hover{
+    transform: scale(1.15, 1.15);
+}
+.sert2{
+    width: 30%;
+    height: auto;
+}
+.sert2:hover{
+    transform: scale(1.15, 1.15);
+}
+.sert3{
+    width: 30%;
+    height: auto;
+}
+.sert3:hover{
+    transform: scale(1.15, 1.15);
+}
+.katalog{
+    margin:0;
+    padding:0;
+    margin-top:42%;
+}
+.buttom__katalog{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    margin: 0;
+    margin-top: 3.875em;
+    margin-bottom:2em;
+    z-index: 100;
+}
+.katalog_click{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    font-size: 1.7vw;
+    padding: 0.1em 4em;
+    text-decoration: none;
+    color: #DFCD24;
+    background-color: #133D16;
+}
+.linia_katalog1{
+    margin-left: 1.5em;
+    content: '';
+    height: 5px;
+    width: 37.5%;
+    background: #133D16;
+}
+.linia_katalog2{
+    margin-left: 1.5em;
+    content: '';
+    height: 5px;
+    width: 37.5%;
+    background: #133D16;
+}
+.materials{
+    margin: 0;
+    padding: 0;
+    padding-left:1.2em;
+    padding-right: 1.2em;
+    margin-top: 50.5%;
+    display: flex;
+    justify-content: space-between;
+}
+.oborydovanie__fon{
+    position: relative;
+    margin-left:0;
+    margin-bottom:1em;
+    margin-right:1em;
+    opacity: 0.8;
+    transition: color .2s linear;
+}
+.oborydovanie__fon:hover{
+    opacity: 1;
+}
+.oborydovanie{
+    position: absolute;
+    z-index:10000;
+    font-size: 2.5vw;
+    color: #fff;
+    background-color: #00000083;
+    margin:0;
+    padding: 0 2em;
+    margin-top:-284px;
+    margin-left:7.7em;
+}
+.oborydovanie p{
+    margin: 0;
+}
+.ypakovka__fon{
+    text-align: center;
+    position: relative;
+    margin-right: 0;
+    margin-bottom: 1em;
+    margin-left:1em;
+    opacity: 0.8;
+    transition: color .2s linear;
+}
+.ypakovka__fon:hover{
+    opacity: 1;
+}
+.ypakovka{
+    position: absolute;
+    z-index:10000;
+    font-size: 2.5vw;
+    color: #fff;
+    background-color: #00000083;
+    margin:0;
+    padding: 0 1em;
+    margin-top:-284px;
+    margin-left:0.5em;
+}
+.ypakovka p{
+    margin:0;
+}
+.bymaga{
+    margin: 0;
+    padding: 0;
+    padding-left:1.2em;
+    padding-right: 1.2em;
+    display: flex;
+    justify-content: space-between;
+}
+.niti__fon{
+    position: relative;
+    margin:0;
+    padding:0;
+    margin-left:0;
+    margin-top: 1em;
+    margin-bottom:1em;
+    margin-right:1em;
+    opacity: 0.8;
+    transition: color .2s linear;
+}
+.niti__fon:hover{
+    opacity: 1;
+}
+.niti{
+    position: absolute;
+    z-index:10000;
+    font-size: 2.5vw;
+    color: #fff;
+    background-color: #00000083;
+    margin:0;
+    padding: 10px 2em;
+    margin-top:-292px;
+    margin-left: 3em;
+}
+.niti p{
+    margin: 0;
+}
+.filtr__fon{
+    margin:0;
+    padding:0;
+    text-align: center;
+    position: relative;
+    margin-right:0;
+    margin-left:1em;
+    margin-top: 1em;
+    margin-bottom:1em;
+    opacity: 0.8;
+    transition: color .2s linear;
+}
+.filtr__fon:hover{
+    opacity: 1;
+}
+.filtr{
+    position: absolute;
+    z-index:10000;
+    font-size: 2.5vw;
+    color: #fff;
+    background-color: #00000083;
+    margin:0;
+    padding: 10px 2.4em;
+    margin-top:-292px;
+    margin-left: 4.5em;
+}
+.filtr p{
+    margin: 0;
+}
+.rasting{
+    margin: 0;
+    padding: 0;
+    padding-left:1.2em;
+    padding-right: 1.2em;
+    display: flex;
+    justify-content: space-between;
+}
+.rast__fon{
+    margin:0;
+    padding:0;
+    text-align: center;
+    position: relative;
+    margin-top: 1em;
+    margin-bottom:1em;
+    opacity: 0.8;
+    transition: color .2s linear;
+}
+.rast__fon:hover{
+    opacity: 1;
+}
+.rast{
+    position: absolute;
+    z-index:10000;
+    font-size: 2.5vw;
+    color: #fff;
+    background-color: #00000083;
+    margin:0;
+    padding: 10px 2.4em;
+    margin-top:-292px;
+    margin-left: 10.5em;
+}
+.rast p{
+    margin:0;
+}
+.fakekatalog{
+    margin:0;
+    color: red;
+    margin-top:-108px;
+}
+@media only screen and (max-width:2560px){
+    .section{
+        padding-top: 210px;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .head_1{
+        margin-top: -192px;
+    }
+    .head_2{
+        left: 36em;
+    }
+    .head_2 :nth-child(1){
+        margin-right: 200px;
+    }
+    .section__inner{
+        margin-top: -51em;
+    }
+    .year{
+        font-size: 8.5vw;
+        font-weight: 400;
+        margin:0;
+        margin-right: 800px;
+    }
+    .years{
+        margin: 0;
+        margin:0.3em;
+        margin-top: -14rem;
+        margin-bottom: 0;
+        margin-right: 2.5em;
+        font-size: 3.5vw;
+    }
+    .EXPERIENCE{
+        margin: 0;
+        font-size:3.5vw;
+        margin-left: 0.8em;
+    }
+    .fili{
+        margin: 0;
+        font-size: 3.2em;
+        margin-top: -1rem;
+    }
+    .prof{
+        font-size: 3.2em;
+        margin: 0;
+    }
+    .tea{
+        font-size: 2.5vw;
+        margin: 0;
+    }
+    .material{
+        font-size: 2.5vw;
+        margin: 0;
+    }
+    .wave-btn{
+        margin:0;
+        margin-top: 1em;
+    }
+    .fakeonas{
+        color: transparent;
+        margin:0;
+        margin-top:125px;
+    }
+    .buttom_onas{
+        margin:0;
+        margin-top:30em;
+        margin-bottom: 4em;
+    }
+    .info{
+        padding:0;
+        padding-left: 0.5em;
+        padding-top: 600px;
+    }
+    .block{
+        width: 99%;
+    }
+    .block__inner{
+        font-size: 1.5vw;
+        height: auto;
+    }
+    .buttom_sert{
+        margin:0;
+        margin-top: 3%;
+        margin-left: 2%;
+    }
+    .slick-arrow{
+        width: 150px;
+        height: 170px;
+    }
+    .sertifikat{
+        padding:0;
+        margin:0;
+        padding-top:36.5%;
+        padding-left:0.8em;
+    }
+    .block__sert{
+        width: 98.7%;
+        height: 100%;
+    }
+    .sert1{
+        width: 28%;
+    }
+    .sert2{
+        width: 28%;
+    }
+    .sert3{
+        width: 28%;
+    }
+    .linia_katalog1{
+        margin-left: 1.2em;
+        width:38.5%
+    }
+    .linia_katalog2{
+        margin:0;
+        width:38.5%
+    }
+    .materials{
+        margin: 0;
+        padding: 0;
+        padding-left:1.2em;
+        padding-right: 1.2em;
+        margin-top: 49%;
+    }
+    .oborydovanie{
+        margin:0;
+        padding: 10px 2em;
+        margin-top:-468px;
+        margin-left:4.8em;
+    }
+    .ypakovka{
+        margin:0;
+        padding: 10px 0.2em;
+        margin-top:-468px;
+        margin-left:0.5em;
+    }
+    .niti{
+        padding:0;
+        margin:0;
+        padding: 10px 2em;
+        margin-top:-468px;
+        margin-left: 3em;
+    }
+    .filtr{
+        padding:0;
+        margin:0;
+        padding: 10px 2.8em;
+        margin-top:-468px;
+        margin-left: 4.5em;
+    }
+    .rast{
+        padding:0;
+        margin:0;
+        padding: 10px 2.4em;
+        margin-top:-468px;
+        margin-left: 10.5em;
+    }
+    .fakekatalog{
+        margin:0;
+        color: transparent;
+        margin-top:-118px;
+    }
+}
+@media screen and (max-width: 1920px){
+    .section{
+        padding-top: 168px;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .head_1{
+        margin-top: -147px;
+    }
+    .head_2{
+        left: 35.5em;
+    }
+    .head_2 :nth-child(1){
+        margin-right: 190px;
+    }
+    .section__inner{
+        margin-top: -39em;
+    }
+    .year{
+        font-size: 8.5vw;
+        font-weight: 400;
+        margin:0;
+        margin-right: 590px;
+    }
+    .years{
+        margin: 0;
+        margin:0.3em;
+        margin-top: -10.5rem;
+        margin-right: 2em;
+        margin-bottom: 0;
+    }
+    .EXPERIENCE{
+        margin: 0;
+        margin-left:1.2em;
+    }
+    .fili{
+        margin: 0;
+        font-size: 2vw;
+        margin-top: -0.5em;
+    }
+    .prof{
+        margin:0;
+        font-size:2vw;
+    }
+    .tea{
+        margin: 0;
+        font-size: 2.5vw;
+    }
+    .material{
+        margin: 0;
+        font-size: 2.5vw;
+    }
+    .wave-btn{
+        margin:0;
+        margin-top: 1em;
+    }
+    .fakeonas{
+        color: transparent;
+        margin:0;
+        margin-top:115px;
+    }
+    .buttom_onas{
+        margin:0;
+        margin-top:14em;
+        margin-bottom: 4em;
+    }
+    .info{
+        padding:0;
+        padding-left: 0.5em;
+        padding-top: 332px;
+    }
+    .block{
+        width: 98.5%;
+    }
+    .block__inner{
+        height: auto;
+        font-size: 1.7vw;
+    }
+    .buttom_sert{
+        margin:0;
+        margin-top: 5%;
+        margin-left: 2%;
+    }
+    .sertifikat{
+        padding:0;
+        margin:0;
+        padding-top:47%;
+        padding-left:0.8em;
+    }
+    .block__sert{
+        width: 98.3%;
+        height: 86%;
+    }
+    .sert1{
+        width: 30%;
+    }
+    .sert2{
+        width: 30%;
+    }
+    .sert3{
+        width: 30%;
+    }
+    .katalog{
+        margin:0;
+        margin-top:47%;
+    }
+    .linia_katalog1{
+        margin-left: 1.2em;
+        width:38%
+    }
+    .linia_katalog2{
+        margin:0;
+        width:38%
+    }
+    .materials{
+        margin: 0;
+        padding: 0;
+        padding-left:1.2em;
+        padding-right: 1.2em;
+        margin-top: 54.3%;
+    }
+    .oborydovanie{
+        margin:0;
+        padding: 10px 2em;
+        margin-top:-360px;
+        margin-left:4.8em;
+    }
+    .ypakovka{
+        margin:0;
+        padding: 10px 0.2em;
+        margin-top:-360px;
+        margin-left:0.5em;
+    }
+    .niti{
+        padding:0;
+        margin:0;
+        padding: 10px 2em;
+        margin-top:-360px;
+        margin-left: 3em;
+    }
+    .filtr{
+        padding:0;
+        margin:0;
+        padding: 10px 2.8em;
+        margin-top:-360px;
+        margin-left: 4.5em;
+    }
+    .rast{
+        padding:0;
+        margin:0;
+        padding: 10px 2.4em;
+        margin-top:-360px;
+        margin-left: 10.5em;
+    }
+    .fakekatalog{
+        margin:0;
+        color: transparent;
+        margin-top:-46px;
+    }
+}
+@media screen and (max-width: 1600px) {
+    .section{
+        padding-top: 138px;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .head_1{
+        margin-top: -120px;
+    }
+    .head_2{
+        left: 34em;
+    }
+    .head_2 :nth-child(1){
+        margin-right: 105px;
+    }
+    .section__inner{
+        margin-top: -31.25em 
+    }
+    .year{
+        margin:0;
+        font-size: 9vw;
+        margin-right: 480px;
+    }
+    .years{
+        margin:0;
+        font-size: 3.5vw;
+        margin-top: -9.3rem;
+        margin-bottom: 0;
+        margin-right: 2em; 
+    }
+    .EXPERIENCE{
+        margin:0;
+        font-size: 3.5vw;
+        margin-top: 0rem;
+        margin-left: 1.07em;
+    }
+    .fili{
+        margin: 0;
+        margin-top: -20px;
+        font-size: 1.9vw;
+    }
+    .prof{
+        margin:0;
+        font-size: 1.9vw;
+    }
+    .tea{
+        margin:0;
+        font-size: 2.3vw;
+    }
+    .material{
+        margin:0;
+        font-size: 2.3vw;
+    }
+    .wave-btn{
+        margin:0;
+        margin-top:10px;
+    }
+    .fakeonas{
+        color: transparent;
+        margin-top:72px;
+    }
+    .buttom_onas{
+        margin-top: 3.875em;
+        margin-bottom:2em;
+    }
+    .info{
+        padding:0;
+        padding-left: 0.5em;
+        padding-top: 134px;
+    }
+    .block{
+        width: 98.5%;
+    }
+    .block__inner{
+        height: auto;
+        font-size: 1.55vw
+    }
+    .buttom_sert{
+        margin:0;
+        margin-top: 4%;
+        margin-left: 2%;
+    }
+    .slick-arrow{
+        width: 123px;
+        height: 150px;
+    }
+    .sertifikat{
+        margin:0;
+        padding: 0;
+        padding-top: 42%;
+        padding-left: 0.8em;
+    }
+    .block__sert{
+        width: 98.1%;
+        height: 89.7%;
+    }
+    .sert1{
+        width: 30%;
+    }
+    .sert2{
+        width: 30%;
+    }
+    .sert3{
+        width: 30%;
+    }
+    .katalog{
+        margin:0;
+        margin-top:42.5%;
+    }
+    .linia_katalog1{
+        margin-left: 1em;
+        width:38%
+    }
+    .linia_katalog2{
+        margin:0;
+        width:38%
+    }
+    .materials{
+        margin: 0;
+        padding: 0;
+        padding-left:1.2em;
+        padding-right: 1.2em;
+        margin-top: 50.5%;
+    }
+    .oborydovanie{
+        margin:0;
+        padding: 10px 2em;
+        margin-top:-292px;
+        margin-left:4.5em;
+    }
+    .ypakovka{
+        margin:0;
+        padding: 10px 0.2em;
+        margin-top:-292px;
+        margin-left:0.4em;
+    }
+    .niti{
+        padding:0;
+        margin:0;
+        padding: 10px 2em;
+        margin-top:-292px;
+        margin-left: 3em;
+    }
+    .filtr{
+        padding:0;
+        margin:0;
+        padding: 10px 2.4em;
+        margin-top:-292px;
+        margin-left: 4.5em;
+    }
+    .rast{
+        padding:0;
+        margin:0;
+        padding: 10px 2.4em;
+        margin-top:-292px;
+        margin-left: 10.5em;
+    }
+    .fakekatalog{
+        margin:0;
+        color: transparent;
+        margin-top:-108px;
+    }
+}
+@media  screen and (max-width:1440px) {
+    .fakeonas{
+        margin:0;
+        margin-top:60px;
+    }
+    .section{
+        padding-top: 130px;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .head_1{
+        padding-top: 11px;
+    }
+    .section__inner{
+        margin-top: -28.25em;
+    }
+    .year{
+        margin-right: 450px;
+    }
+    .years{
+        margin-top: -8.3rem;
+        margin-bottom: 0;
+        margin-right: 2em; 
+    }
+    .EXPERIENCE{
+        margin:0;
+        margin-left:1em;
+    }
+    .fili{
+        margin:0;
+        font-size: 1.8vw;
+        margin-top: -0.7em;
+    }
+    .prof{
+        margin:0;
+        font-size:1.8vw;
+    }
+    .buttom_onas{
+        margin:0;
+        margin-top: 0em;
+        margin-bottom: 1.8em;
+    }
+    .onas_click{
+        margin:0;
+        margin-left: 0.7em;
+        font-size: 1.6vw;
+    }
+    .info{
+        padding:0;
+        padding-left: 0.5em;
+        padding-top: 68px;
+    }
+    .block{
+        width: 98.2%;
+    }
+    .buttom_sert{
+        margin:0;
+        margin-top: 1%;
+        margin-left: 2.1%;
+    }
+    .sertifikat{
+        margin:0;
+        padding: 0;
+        padding-top: 39%;
+        padding-left: 0.7em;
+    }
+    .block__sert{
+        width: 98%;
+        height: 93%;
+    }
+    .sert__inner{
+        margin:0;
+        margin: 40px;
+    }
+    .sert1{
+        width: 28%;
+    }
+    .sert2{
+        width: 28%;
+    }
+    .sert3{
+        width: 28%;
+    }
+    .katalog{
+        margin:0;
+        margin-top: 39%;
+    }
+    .linia_katalog1{
+        margin-left: 1em;
+        height: 5px;
+        width:38%
+    }
+    .linia_katalog2{
+        margin:0;
+        height: 5px;
+        width:38%
+    }
+    .materials{
+        margin: 0;
+        padding: 0;
+        padding-left:1.2em;
+        padding-right: 1.2em;
+        margin-top: 47%;
+    }
+    .oborydovanie{
+        margin:0;
+        padding: 10px 2em;
+        margin-top:-264px;
+        margin-left:4.5em;
+    }
+    .ypakovka{
+        margin:0;
+        padding: 10px 0.2em;
+        margin-top:-264px;
+        margin-left:0.4em;
+    }
+    .niti{
+        padding:0;
+        margin:0;
+        padding: 10px 2em;
+        margin-top:-264px;
+        margin-left: 3em;
+    }
+    .filtr{
+        padding:0;
+        margin:0;
+        padding: 10px 2.4em;
+        margin-top:-264px;
+        margin-left: 4.5em;
+    }
+    .rast{
+        padding:0;
+        margin:0;
+        padding: 10px 2.4em;
+        margin-top:-264px;
+        margin-left: 10.5em;
+    }
+    .fakekatalog{
+        margin:0;
+        color: transparent;
+        margin-top:-90px;
+    }
+}
+@media screen and (max-width:1024px) {
+    .section{
+        padding-top: 95px;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .head_1{
+        padding-top: 43px;
+    }
+    .head_2 :nth-child(1){
+        margin-right: 0px;
+    }
+    .section__inner{
+        margin-top: -19.5em;
+    }
+    .year{
+        font-size: 8vw;
+        margin-right: 320px;
+    }
+    .years{
+        font-size: 3.9vw;
+        margin:0.3em;
+        margin-top: -5.5rem;
+        margin-bottom: 0;
+        margin-right: 2em; 
+    }
+    .EXPERIENCE{
+        font-size: 3.4vw;
+        margin-top: -0.7rem;
+        margin-left: 0.7em;
+    }
+    .fili{
+        margin: 0;
+        margin-top: -1rem;
+        font-size: 1.9vw;
+    }
+    .prof{
+        margin:0;
+        font-size: 1.9vw;
+    }
+    .tea{
+        font-size: 2.3vw;
+    }
+    .material{
+        font-size: 2.3vw;
+    }
+    .wave-btn{
+        margin:0;
+        margin-top: 0.1em;
+    }
+    .fakeonas{
+        margin:0;
+        margin:47px;
+    }
+    .buttom_onas{
+        margin:0;
+        margin-top: -170px;
+    }
+    .onas_click{
+        margin:0;
+        margin-left: 0.86em;
+    }
+    .linia{
+        margin-left: 1.5em;
+        content: '';
+        height: 5px;
+        width: 76%;
+        background: #133D16;
+    }
+    .info{
+        padding:0;
+        padding-left: 0.5em;
+        margin-top: -117px;
+    }
+    .block{
+        width: 97.7%;
+    }
+    .block__inner{
+        font-size:1.85vw;
+    }
+    .slick-arrow.slick-next{
+        margin:0;
+        margin-top:-15px;
+        margin-right: -75px;
+    }
+    .buttom_sert{
+        margin:0;
+        margin-top: 4%;
+        margin-left: 2.3%;
+    }
+    .sertifikat{
+        margin:0;
+        padding: 0;
+        padding-top: 53.5%;
+        padding-left: 0.7em;
+    }
+    .block__sert{
+        width: 97.2%;
+        height: 88%;
+    }
+    .sert__inner{
+        margin:0;
+        margin: 60px;
+    }
+    .sert1{
+        width: 30%;
+    }
+    .sert1:hover{
+        transform: scale(1.15, 1.25);
+    }
+    .sert2{
+        width: 30%;
+    }
+    .sert2:hover{
+        transform: scale(1.15, 1.25);
+    }
+    .sert3{
+        width: 30%;
+    }
+    .sert3:hover{
+        transform: scale(1.15, 1.25);
+    }
+    .katalog{
+        margin:0;
+        margin-top: 51%;
+    }
+    .linia_katalog1{
+        margin-left: 1em;
+        height: 4px;
+        width:37.2%
+    }
+    .linia_katalog2{
+        margin:0;
+        height: 4px;
+        width:37.2%
+    }
+    .materials{
+        margin: 0;
+        padding: 0;
+        padding-left:1em;
+        padding-right: 1em;
+        margin-top: 60.5%;
+    }
+    .oborydovanie{
+        margin:0;
+        padding: 8px 2em;
+        margin-top:-190px;
+        margin-left:4.5em;
+    }
+    .oborydovanie__fon{
+        margin-left:0;
+        margin-bottom:0.8em;
+        margin-right:0.8em;
+    }
+    .ypakovka{
+        margin:0;
+        padding: 8px 0.2em;
+        margin-top:-190px;
+        margin-left:0.35em;
+    }
+    .ypakovka__fon{
+        margin-right: 0;
+        margin-bottom: 0.8em;
+        margin-left:0.8em;
+    }
+    .niti{
+        padding:0;
+        margin:0;
+        padding: 8px 2em;
+        margin-top:-190px;
+        margin-left: 3em;
+    }
+    .niti__fon{
+        margin-left:0;
+        margin-bottom:0.8em;
+        margin-right:0.8em;
+        margin-top: 0.8em;
+    }
+    .filtr{
+        padding:0;
+        margin:0;
+        padding: 8px 2.4em;
+        margin-top:-190px;
+        margin-left: 4.5em;
+    }
+    .filtr__fon{
+        margin-right: 0;
+        margin-bottom: 0.8em;
+        margin-left:0.8em;
+        margin-top: 0.8em;
+    }
+    .rast{
+        padding:0;
+        margin:0;
+        padding: 8px 2.4em;
+        margin-top:-190px;
+        margin-left: 10.5em;
+    }
+    .rast__fon{
+        margin-bottom: 0.8em;
+        margin-top: 0.8em;
+    }
+    .fakekatalog{
+        margin:0;
+        color: transparent;
+        margin-top:74px;
+    }
+}
+@media screen and (max-width:768px){
+    .section{
+        padding-top: 74px;
+        padding-left: 0.8em;
+        padding-right: 0.8em;
+    }
+    .head_1{
+        padding-top: 60px;
+    }
+    .head_2 :nth-child(1){
+        margin-left: 60px;
+    }
+    .container{
+        padding-right: 0.8em;
+        padding-left: 0.8em;
+    }
+    .section__inner{
+        margin-top: -15em;
+    }
+    .year{
+        font-size: 7.5vw;
+        margin-right: 240px;
+    }
+    .years{
+        font-size: 3.7vw;
+        margin:0.3em;
+        margin-top: -3.7rem;
+        margin-bottom: 0;
+        margin-right: 2.5em; 
+    }
+    .EXPERIENCE{
+        font-size: 3.2vw;
+        margin-top: -0.5rem;
+        margin-left: 0em;
+    }
+    .fili{
+        margin: 0;
+        margin-top: -1rem;
+        font-size: 1.9vw;
+    }
+    .prof{
+        margin:0;
+        font-size: 1.9vw;
+    }
+    .tea{
+        font-size: 2.4vw;
+    }
+    .material{
+        font-size: 2.4vw;
+    }
+    .wave-btn{
+        padding: 0.3em 0.5em;
+        margin:0;
+        margin-top: 0em;
+    }
+    .fakeonas{
+        color: transparent;
+        margin:0;
+        margin-top: 36px;
+    }
+    .buttom_onas{
+        margin:0;
+        margin-top: -282px;
+    }
+    .onas_click{
+        font-size: 2.1vw;
+        margin: 0;
+        margin-left: 1.1em;
+    }
+    .linia{
+        margin: 0;
+        margin-left: 1.5em;
+        content: '';
+        height: 3px;
+        width: 69.8%;
+        background: #133D16;
+    }
+    .info{
+        padding:0;
+        padding-left: 0.5em;
+        margin-top: -240px;
+    }
+    .block{
+        width: 97.5%;
+    }
+    .block__inner{
+        width: 75%;
+        font-size: 2.3vw;
+        height: auto;
+    }
+    .buttom_sert{
+        margin:0;
+        margin-top: 0%;
+        margin-left: 2.8%;
+    }
+    .sert_click{
+        font-size: 2.3vw;
+    }
+    .slick-dots{
+        margin-top: -20px;
+    }
+    .slick-arrow{
+        width:100px;
+        height: 120px;
+    }
+    .slick-arrow.slick-next{
+        margin:0;
+        margin-right:-100px;
+        margin-top: 5px;
+    }
+    .sertifikat{
+        margin:0;
+        padding: 0;
+        padding-top: 70%;
+        padding-left: 0.7em;
+    }
+    .block__sert{
+        width: 97%;
+        height: 88%;
+    }
+    .sert__inner{
+        margin:0;
+        margin: 40px;
+        margin-top:18%;
+    }
+    .sert1{
+        width: 30%;
+    }
+    .sert1:hover{
+        transform-origin: -100%;
+        transform: scale(1.8, 1.8);
+    }
+    .sert2{
+        width: 30%;
+    }
+    .sert2:hover{
+        transform: scale(1.8, 1.8);
+    }
+    .sert3{
+        width: 30%;
+    }
+    .sert3:hover{
+        transform-origin: 150%;
+        transform: scale(1.8, 1.8);
+    }
+    .katalog{
+        margin:0;
+        margin-top: 68%;
+    }
+    .linia_katalog1{
+        margin-left: 0;
+        margin-left:1em;
+        width:37%;
+        height: 3px;
+    }
+    .linia_katalog2{
+        margin-left: 0;
+        width:37%;
+        height: 3px;
+    }
+    .materials{
+        margin: 0;
+        padding: 0;
+        padding-left:1em;
+        padding-right: 0.9em;
+        margin-top: 80%;
+    }
+    .oborydovanie{
+        margin:0;
+        padding: 6px 2em;
+        margin-top:-140px;
+        margin-left:4.5em;
+    }
+    .oborydovanie__fon{
+        margin-left:0;
+        margin-bottom:0.6em;
+        margin-right:0.6em;
+    }
+    .ypakovka{
+        margin:0;
+        padding: 6px 0.2em;
+        margin-top:-140px;
+        margin-left:0.3em;
+    }
+    .ypakovka__fon{
+        margin-right: 0;
+        margin-bottom: 0.6em;
+        margin-left:0.6em;
+    }
+    .niti{
+        padding:0;
+        margin:0;
+        padding: 6px 2em;
+        margin-top:-140px;
+        margin-left: 3em;
+    }
+    .niti__fon{
+        margin-left:0;
+        margin-bottom:0.6em;
+        margin-right:0.6em;
+        margin-top: 0.6em;
+    }
+    .filtr{
+        padding:0;
+        margin:0;
+        padding: 6px 2.4em;
+        margin-top:-140px;
+        margin-left: 4.5em;
+    }
+    .filtr__fon{
+        margin-top: 0.6em;
+        margin-right: 0;
+        margin-bottom: 0.6em;
+        margin-left:0.6em;
+    }
+    .bymaga{
+        margin:0;
+        padding:0;
+        padding-left:1em;
+        padding-right: 0.9em;
+    }
+    .rast{
+        padding:0;
+        margin:0;
+        padding: 6px 2.4em;
+        margin-top:-140px;
+        margin-left: 10.5em;
+    }
+    .rast__fon{
+        margin-bottom: 0.6em;
+        margin-top: 0.6em;
+    }
+    .fakekatalog{
+        margin:0;
+        color: transparent;
+        margin-top:108px;
+    }
+}
+@media screen and (max-width:425px){
+    .section{
+        padding-top: 44px;
+        padding-left: 0.4em;
+        padding-right: 0.4em;
+    }
+    .head_1{
+        padding-top: 87px;
+        font-size: 1.6vw;
+    }
+    .head_2 :nth-child(1){
+        margin-left: 42px;
+        margin-right: -50px;
+    }
+    .head_2{
+        font-size: 1.6vw
+    }
+    .container{
+        padding-right: 0.4em;
+        padding-left: 0.4em;
+    }
+    .section__inner{
+        margin-top: -8.1em;
+    }
+    .year{
+        margin-top: -0.2em;
+        font-size: 6.5vw;
+        margin-right: 135px;
+    }
+    .years{
+        font-size: 3vw;
+        margin:0.3em;
+        margin-top: -1.7rem;
+        margin-bottom: 0;
+        margin-right: 3.5em; 
+    }
+    .EXPERIENCE{
+        font-size: 2.7vw;
+        margin-top: -0.2rem;
+        margin-left: -0.8em;
+    }
+    .fili{
+        margin: 0;
+        margin-top: -1rem;
+        font-size: 2vw;
+    }
+    .prof{
+        margin:0;
+        font-size: 2vw;
+    }
+    .tea{
+        margin:0;
+        margin-top: -3rem;
+        font-size: 2.4vw;
+    }
+    .material{
+        margin:0;
+        font-size: 2.4vw;
+    }
+    .wave-btn{
+        border-radius: 0.4em;
+        padding: 0;
+        margin:0;
+        margin-top: -1rem;
+    }
+    .fakeonas{
+        margin:0;
+        margin-top: 10px;
+        color: transparent;
+    }
+    .wave-btn:hover{
+        background: rgba(0,0,0,0);
+        color: #DFCD24;
+        box-shadow: inset 0 0 0 1px #DFCD24;
+    }
+    .buttom_onas{
+        margin:0;
+        margin-top: -424px;
+    }
+    .onas_click{
+        font-size: 2.4vw;
+        margin-left: 1.1em;
+    }
+    .linia{
+        margin-left: 1em;
+        content: '';
+        height: 2px;
+        width: 65%;
+        background: #133D16;
+    }
+    .info{
+        padding:0;
+        margin-top: -400px;
+    }
+    .block{
+        width: 98.5%;
+    }
+    .block__inner{
+        font-size: 3.1vw;
+        height: auto;
+    }
+    .buttom_sert{
+        margin:0;
+        margin-top: 35px;
+        margin-left: 4%;
+    }
+    .sert_click{
+        font-size: 3vw;
+    }
+    .slick-arrow{
+        width: 70px;
+        height: 90px;
+    }
+    .sertifikat{
+        margin:0;
+        padding: 0;
+        padding-top: 124%;
+        padding-left: 0em;
+    }
+    .block__sert{
+        width: 98.5%;
+        height: 65%;
+    }
+    .sert__inner{
+        margin:0;
+        margin: 40px;
+        margin-top:30%;
+    }
+    .sert1{
+        width: 30%;
+    }
+    .sert1:hover{
+        transform-origin: -20%;
+        transform: scale(2.5, 2.5);
+    }
+    .sert2{
+        width: 30%;
+    }
+    .sert2:hover{
+        transform: scale(2.5, 2.5);
+    }
+    .sert3{
+        width: 30%;
+    }
+    .sert3:hover{
+        transform-origin: 90%;
+        transform: scale(2.5, 2.5);
+    }
+    .katalog{
+        margin:0;
+        margin-top: 87%;
+    }
+    .katalog_click{
+        font-size: 2.5vw;
+    }
+    .linia_katalog1{
+        margin-left: 0;
+        margin-left:0.3em;
+        width:32.8%;
+        height: 2px;
+    }
+    .linia_katalog2{
+        margin-left: 0;
+        width:32.8%;
+        height: 2px;
+    }
+    .materials{
+        margin: 0;
+        padding: 0;
+        padding-left:0.4em;
+        padding-right: 0.5em;
+        margin-top: 107%;
+    }
+    .oborydovanie{
+        font-size: 2vw;
+        margin:0;
+        padding: 5px 2em;
+        margin-top:-80px;
+        margin-left:7.7em;
+    }
+    .oborydovanie__fon{
+        margin-left:0;
+        margin-bottom:0.4em;
+        margin-right:0.4em;
+    }
+    .ypakovka{
+        font-size:1.8vw;
+        margin:0;
+        padding: 5px 1.5em;
+        margin-top:-80px;
+        margin-left:1.3em;
+    }
+    .ypakovka__fon{
+        margin-right: 0;
+        margin-bottom: 0.4em;
+        margin-left:0.4em;
+    }
+    .niti{
+        padding:0;
+        margin:0;
+        padding: 5px 2em;
+        margin-top:-80px;
+        margin-left: 3em;
+    }
+    .niti__fon{
+        margin-left:0;
+        margin-bottom:0.4em;
+        margin-right:0.4em;
+        margin-top: 0.4em;
+    }
+    .filtr{
+        padding:0;
+        margin:0;
+        padding: 5px 2.4em;
+        margin-top:-80px;
+        margin-left: 4.5em;
+    }
+    .filtr__fon{
+        margin-top: 0.4em;
+        margin-right: 0;
+        margin-bottom: 0.4em;
+        margin-left:0.4em;
+    }
+    .bymaga{
+        margin:0;
+        padding:0;
+        padding-left:0.4em;
+        padding-right: 0.5em;
+    }
+    .rast{
+        padding:0;
+        margin:0;
+        padding: 5px 2.4em;
+        margin-top:-80px;
+        margin-left: 10.5em;
+    }
+    .rast__fon{
+        margin-bottom: 0.4em;
+        margin-top: 0.4em;
+    }
+    .rasting{
+        margin:0;
+        padding:0;
+        padding-left:0.4em;
+        padding-right: 0.5em;
+    }
+}
+@media screen and (max-width:390px){
+    .year{
+        margin:0;
+        font-size: 6vw;
+        margin-right: 125px;
+        margin-top:0.3em;
+    }
+    .years{
+        font-size: 3vw;
+        margin:0.3em;
+        margin-top: -1.5rem;
+        margin-bottom: 0;
+        margin-right: 4.1em; 
+    }
+    .EXPERIENCE{
+        font-size: 2.7vw;
+        margin-top: -0.2rem;
+        margin-left: -1.5em;
+    }
+    .fili{
+        margin: 0;
+        margin-top: -0.8rem;
+        font-size: 2.2vw;
+    }
+    .prof{
+        margin:0;
+        font-size: 2.2vw;
+    }
+    .tea{
+        margin:0;
+        font-size: 2.45vw;
+    }
+    .material{
+        margin:0;
+        font-size: 2.45vw;
+    }
+    .wave-btn{
+        border-radius: 0.4em;
+        padding: 0 0;
+        margin:0;
+        margin-top: 0.8rem;
+    }
+    .wave-btn-text{
+        font-size:2vw
+    }
+    .buttom_onas{
+        margin:0;
+        margin-top:-434px;
+    }
+    .info{
+        padding:0;
+        margin-top: -408px
+    }
+    .block{
+        height: 67%;
+    }
+    .fakeonas{
+        margin: 0;
+        color: transparent;
+        margin-top: -8px;
+    }
+    .buttom_sert{
+        margin:0;
+        margin-left:4%;
+    }
+    .sertifikat{
+        margin:0;
+        padding: 0;
+        padding-top: 115%;
+        padding-left: 0em;
+    }
+    .block__sert{
+        width: 98.5%;
+        height: 365px;
+    }
+    .sert__inner{
+        margin:0;
+        margin: 40px;
+        margin-top:30%;
+    }
+    .sert1{
+        width: 30%;
+    }
+    .sert1:hover{
+        transform-origin: -20%;
+        transform: scale(2.5, 2.5);
+    }
+    .sert2{
+        width: 30%;
+    }
+    .sert2:hover{
+        transform: scale(2.5, 2.5);
+    }
+    .sert3{
+        width: 30%;
+    }
+    .sert3:hover{
+        transform-origin: 90%;
+        transform: scale(2.5, 2.5);
+    }
+    .katalog{
+        margin:0;
+        margin-top: 79%;
+    }
+    .katalog_click{
+        font-size: 2.5vw;
+    }
+    .linia_katalog1{
+        margin-left: 0;
+        margin-left:0.5em;
+        width:32%;
+        height: 2px;
+    }
+    .linia_katalog2{
+        margin-left: 0;
+        width:32%;
+        height: 2px;
+    }
+    .materials{
+        margin: 0;
+        padding: 0;
+        padding-left:0.4em;
+        padding-right: 0.4em;
+        margin-top: 99.5%;
+    }
+    .oborydovanie{
+        font-size: 2vw;
+        margin:0;
+        padding: 4px 2em;
+        margin-top:-74px;
+        margin-left:7.7em;
+    }
+    .oborydovanie__fon{
+        margin-left:0;
+        margin-bottom:0.3em;
+        margin-right:0.3em;
+    }
+    .ypakovka{
+        font-size:1.8vw;
+        margin:0;
+        padding: 4px 1.5em;
+        margin-top:-74px;
+        margin-left:1.5em;
+    }
+    .ypakovka__fon{
+        margin-right: 0;
+        margin-bottom: 0.3em;
+        margin-left:0.3em;
+    }
+    .niti{
+        padding:0;
+        margin:0;
+        padding: 4px 2em;
+        margin-top:-74px;
+        margin-left: 3em;
+    }
+    .niti__fon{
+        margin-left:0;
+        margin-bottom:0.3em;
+        margin-right:0.3em;
+        margin-top: 0.3em;
+    }
+    .filtr{
+        padding:0;
+        margin:0;
+        padding: 4px 2.4em;
+        margin-top:-74px;
+        margin-left: 4.5em;
+    }
+    .filtr__fon{
+        margin-top: 0.3em;
+        margin-right: 0;
+        margin-bottom: 0.3em;
+        margin-left:0.3em;
+    }
+    .bymaga{
+        margin:0;
+        padding:0;
+        padding-left:0.4em;
+        padding-right: 0.4em;
+    }
+    .rast{
+        padding:0;
+        margin:0;
+        padding: 4px 2.4em;
+        margin-top:-74px;
+        margin-left: 10.5em;
+    }
+    .rast__fon{
+        margin-bottom: 0.3em;
+        margin-top: 0.3em;
+    }
+    .rasting{
+        margin:0;
+        padding:0;
+        padding-left:0.4em;
+        padding-right: 0.4em;
+    }
+}   
+@media screen and (max-width:375px){
+    .head_1{
+        font-size: 1.5vw;
+        padding-top: 91px;
+    }
+    .section{
+        padding-top: 42px;
+        padding-left: 0.4em;
+        padding-right: 0.4em;
+    }
+    .section__inner{
+        margin-top: -7.2em;
+    }
+    .year{
+        margin:0;
+        font-size: 6.5vw;
+        margin-right: 115px;
+        margin-top: -0.2em;
+    }
+    .years{
+        font-size: 2.7vw;
+        margin:0.3em;
+        margin-top: -1.6rem;
+        margin-bottom: 0;
+        margin-right: 5em; 
+    }
+    .EXPERIENCE{
+        font-size: 2.4vw;
+        margin-top: 0rem;
+        margin-left: -2.5em;
+    }
+    .fili{
+        font-size: 2.4vw;
+        margin: 0;
+        margin-top: -0.7rem;
+    }
+    .prof{
+        margin:0;
+        font-size: 2.4vw;
+    }
+    .tea{
+        margin:0;
+        margin-top: 1rem;
+        font-size: 2.5vw;
+    }
+    .material{
+        font-size: 2.5vw;
+        margin: 0;
+        margin-bottom:1.4em;
+    }
+    .wave-btn{
+        border-radius: 0.4em;
+        margin:0;
+        margin-top: 0rem;
+    }
+    .wave-btn-text{
+        font-size: 2vw;
+    }
+    .fakeonas{
+        margin:0;
+        margin-top:-13px;
+        color:transparent;
+    }
+    .buttom_onas{
+        margin:0;
+        margin-top: -444px;
+    }
+    .onas_click{
+        font-size: 2.5vw;
+        margin-left: 1.1em;
+    }
+    .linia{
+        margin-left: 1em;
+        content: '';
+        height: 1px;
+        width: 63%;
+        background: #133D16;
+    }
+    .info{
+        padding:0;
+        margin-top: -422px;
+    }
+    .block{
+        width: 98.5%;
+    }
+    .buttom_sert{
+        margin:0;
+        margin-top: 30px;
+        margin-left: 4%;
+    }
+    .sert_click{
+        font-size: 3vw;
+    }
+    .slick-arrow{
+        width:70px;
+        height: 90px;
+    }
+    .slick-arrow.slick-next{
+        margin:0;
+        margin-right:-110px;
+        margin-top: 5px;
+    }
+    .sertifikat{
+        margin:0;
+        padding: 0;
+        padding-top: 120%;
+        padding-left: 0.1em;
+    }
+    .block__sert{
+        width: 98%;
+        height: 60%;
+    }
+    .sert__inner{
+        margin:0;
+        margin: 20px;
+        margin-top:33%;
+    }
+    .sert1{
+        width: 33%;
+    }
+    .sert1:hover{
+        transform-origin: -20%;
+        transform: scale(2.55, 2.55);
+    }
+    .sert2{
+        width: 33%;
+    }
+    .sert2:hover{
+        transform: scale(2.55, 2.55);
+    }
+    .sert3{
+        width: 33%;
+    }
+    .sert3:hover{
+        transform-origin: 90%;
+        transform: scale(2.55, 2.55);
+    }
+    .katalog{
+        margin:0;
+        margin-top: 89%;
+    }
+    .katalog_click{
+        font-size: 2.5vw;
+    }
+    .linia_katalog1{
+        margin-left: 0;
+        margin-left:0.45em;
+        width:32.5%;
+        height: 1.5px;
+    }
+    .linia_katalog2{
+        margin-left: 0;
+        width:32.5%;
+        height: 1.5px;
+    }
+    .materials{
+        margin: 0;
+        padding: 0;
+        padding-left:0.45em;
+        padding-right: 0.4em;
+        margin-top: 110%;
+    }
+    .oborydovanie{
+        font-size: 2vw;
+        margin:0;
+        padding: 3px 2em;
+        margin-top:-72px;
+        margin-left:7.7em;
+    }
+    .oborydovanie__fon{
+        margin-left:0;
+        margin-bottom:0.3em;
+        margin-right:0.3em;
+    }
+    .ypakovka{
+        font-size:1.8vw;
+        margin:0;
+        padding: 3px 1.5em;
+        margin-top:-72px;
+        margin-left:1.5em;
+    }
+    .ypakovka__fon{
+        margin-right: 0;
+        margin-bottom: 0.3em;
+        margin-left:0.3em;
+    }
+    .niti{
+        padding:0;
+        margin:0;
+        padding: 4px 2em;
+        margin-top:-72px;
+        margin-left: 3em;
+    }
+    .niti__fon{
+        margin-left:0;
+        margin-bottom:0.3em;
+        margin-right:0.3em;
+        margin-top: 0.3em;
+    }
+    .filtr{
+        padding:0;
+        margin:0;
+        padding: 4px 2.4em;
+        margin-top:-72px;
+        margin-left: 4.5em;
+    }
+    .filtr__fon{
+        margin-top: 0.3em;
+        margin-right: 0;
+        margin-bottom: 0.3em;
+        margin-left:0.3em;
+    }
+    .bymaga{
+        margin:0;
+        padding:0;
+        padding-left:0.4em;
+        padding-right: 0.4em;
+    }
+    .rast{
+        padding:0;
+        margin:0;
+        padding: 4px 2.4em;
+        margin-top:-72px;
+        margin-left: 10.5em;
+    }
+    .rast__fon{
+        margin-bottom: 0.3em;
+        margin-top: 0.3em;
+    }
+    .rasting{
+        margin:0;
+        padding:0;
+        padding-left:0.4em;
+        padding-right: 0.4em;
+    }
+}
+@media screen and (max-width:320px){
+    .section{
+        padding-top: 36px;
+        padding-left: 0.3em;
+        padding-right: 0.3em;
+    }  
+    .head_1{
+        font-size: 1.5vw;
+        padding-top: 94px;
+    }
+    .head_2 :nth-child(1){
+      margin-right: -65px;
+    }
+    .section__inner{
+        margin-top: -6.3em;
+    }
+    .year{
+        margin:0;
+        font-size: 7vw;
+        margin-right: 100px;
+    }
+    .years{
+        font-size: 2.7vw;
+        margin:0.3em;
+        margin-top: -1.5rem;
+        margin-bottom: 0;
+        margin-right: 4.5em; 
+    }
+    .EXPERIENCE{
+        font-size: 2.4vw;
+        margin-top: 0rem;
+        margin-left: -2em;
+    }
+    .fili{
+        font-size: 2.2vw;
+        margin: 0;
+        margin-top: -0.8rem;
+    }
+    .prof{
+        margin:0;
+        font-size:2.2vw;
+    }
+    .tea{
+        margin:0;
+        font-size: 2.5vw;
+    }
+    .material{
+        font-size: 2.5vw;
+        margin: 0;
+        margin-bottom: 1em;
+    }
+    .wave-btn{
+        border-radius: 0.4em;
+        padding: 0;
+        margin:0;
+        margin-top: -1rem;
+    }
+    .wave-btn-text{
+        font-size: 2.4vw;
+    }
+    .buttom_onas{
+        margin:0;
+        margin-top: -465px;
+    }
+    .fakeonas{
+        margin:0;
+        margin-top:-13px;
+        color:transparent;
+    }
+    .onas_click{
+        font-size: 3vw;
+        margin-left: 1.1em;
+    }
+    .linia{
+        margin-left: 0.8em;
+        content: '';
+        height: 1px;
+        width: 57%;
+        background: #133D16;
+    }
+    .info{
+        padding:0;
+        margin-top: -442px;
+    }
+    .block{
+        width: 98.2%;
+    }
+    .buttom_sert{
+        margin:0;
+        margin-top:10%;
+        margin-left: 3.7%;
+    }
+    .sert_click{
+        font-size: 3vw;
+    }
+    .slick-arrow{
+        width: 60px;
+        height: 80px;
+    }
+    .slick-dots{
+        margin: 0;
+    }
+    .sertifikat{
+        margin:0;
+        padding: 0;
+        padding-top: 124%;
+        padding-left: 0.1em;
+    }
+    .block__sert{
+        width: 98%;
+        height: 72%;
+    }
+    .sert__inner{
+        margin:0;
+        margin: 20px;
+        margin-top:45%;
+    }
+    .sert1{
+        width: 33%;
+    }
+    .sert1:hover{
+        transform-origin: -10%;
+        transform: scale(3, 3);
+    }
+    .sert2{
+        width: 33%;
+    }
+    .sert2:hover{
+        transform: scale(3, 3);
+    }
+    .sert3{
+        width: 33%;
+    }
+    .sert3:hover{
+        transform-origin: 100%;
+        transform: scale(3, 3);
+    }
+    .katalog{
+        margin:0;
+        margin-top: 110%;
+    }
+    .katalog_click{
+        font-size: 2.5vw;
+    }
+    .linia_katalog1{
+        margin-left: 0;
+        margin-left:0.5em;
+        width:32.1%;
+        height: 1.2px;
+    }
+    .linia_katalog2{
+        margin-left: 0;
+        width:32.1%;
+        height: 1.2px;
+    }
+    .materials{
+        margin: 0;
+        padding: 0;
+        padding-left:0.45em;
+        padding-right: 0.4em;
+        margin-top: 134.5%;
+    }
+    .oborydovanie{
+        font-size: 2vw;
+        margin:0;
+        padding: 3px 2em;
+        margin-top:-61px;
+        margin-left:7.7em;
+    }
+    .oborydovanie__fon{
+        margin-left:0;
+        margin-bottom:0.3em;
+        margin-right:0.3em;
+    }
+    .ypakovka{
+        font-size:1.8vw;
+        margin:0;
+        padding: 3px 1.5em;
+        margin-top:-61px;
+        margin-left:1.5em;
+    }
+    .ypakovka__fon{
+        margin-right: 0;
+        margin-bottom: 0.3em;
+        margin-left:0.3em;
+    }
+    .niti{
+        padding:0;
+        margin:0;
+        padding: 4px 2em;
+        margin-top:-61px;
+        margin-left: 3em;
+    }
+    .niti__fon{
+        margin-left:0;
+        margin-bottom:0.3em;
+        margin-right:0.3em;
+        margin-top: 0.3em;
+    }
+    .filtr{
+        padding:0;
+        margin:0;
+        padding: 4px 2.4em;
+        margin-top:-61px;
+        margin-left: 4.5em;
+    }
+    .filtr__fon{
+        margin-top: 0.3em;
+        margin-right: 0;
+        margin-bottom: 0.3em;
+        margin-left:0.3em;
+    }
+    .bymaga{
+        margin:0;
+        padding:0;
+        padding-left:0.4em;
+        padding-right: 0.4em;
+    }
+    .rast{
+        padding:0;
+        margin:0;
+        padding: 4px 2.4em;
+        margin-top:-64px;
+        margin-left: 10.5em;
+    }
+    .rast__fon{
+        margin-bottom: 0.3em;
+        margin-top: 0.3em;
+    }
+    .rasting{
+        margin:0;
+        padding:0;
+        padding-left:0.4em;
+        padding-right: 0.4em;
+    }
+}
